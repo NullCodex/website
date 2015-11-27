@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simulation</title>
+    <link rel="stylesheet" href="css/simulation.css">
+    <link rel="stylesheet" href="css/jquery-linedtextarea.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="html" class="code_box">
+            <h3 class="areaName">HTML</h3>
+            <textarea name="html" class="lined" id="htmlArea"></textarea>
+        </div>
+        <div id="css" class="code_box">
+            <h3 class="areaName">CSS</h3>
+            <textarea name="css" class="lined" id="cssArea"></textarea>
+        </div>
+        <div id="js" class="code_box">
+            <h3 class="areaName">JavaScript</h3>
+            <textarea name="js" class="lined" id="jsArea"></textarea>
+        </div>
+    </div>
+    <!-- Sandboxing -->
+    <div id="outputWrapper">
+        <iframe id="outputFrame"></iframe>
+    </div>
+    <button type="button" class="btn btn-default" id="run">Run</button>
+    <script src="js/jquery.js"></script>
+    <script src="js/simulation.js"></script>
+    <script src="js/jquery-linedtextarea.js"></script>
+</body>
+
+</html>
